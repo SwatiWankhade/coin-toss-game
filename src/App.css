@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.App {
+  text-align: center;
+  display: flex ;
+  /* justify-content: center; */
+}
+
+.logoName{
+  color: white;
+  font-family: 'Cedarville Cursive', cursive;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.navbar{
+  display: flex;
+  background-color: rgb(11, 137, 191);;
+}
+.ulList{
+  display: flex;
+  margin-left: 60%;
+}
+.ulList li{
+  padding: 5px 8px;
+  list-style-type: none;
+}
+.ulList li:hover a{
+   border-bottom: 1px solid white;
+   font-size: 1.2rem;
+
+}
+.ulList li a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+
+
+/* Home  */
+
+.homePage{
+  /* background-color: aquamarine; */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  padding: 10px;
+  text-align: center;
+}
+.homePage h2{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.homePage p{
+  margin-top: 2%;
+  font-size: 1rem;  
+  font-weight: 600;
+  color: rgb(123, 126, 129);
+}
+
+.homeLink{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.homeLink a{
+  background-color: rgb(11, 137, 191);
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+.homeLink a:hover{
+  filter: brightness(120%);
+  /* font-size: 1.1rem; */
+}
+.homeAbout{
+  text-decoration: none;
+  margin-left: 26%;
+  
+}
+.homeHT{
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+/* head tail  */
+
+.select{
+  margin-left: 2%;
+  padding: 5px 8px;
+  background-color: rgb(11, 137, 191);
+  border: none;
+  border-radius: 8px;
+  font-size: .9rem;
+  cursor: pointer;
+  color: white;
+}
+.buttonsLink{
+  margin-top: 2%;
+}
+.dropdown{
+  border: none;
+  font-size: 1rem;
+  padding: 5px;
+  cursor: pointer;
+}
